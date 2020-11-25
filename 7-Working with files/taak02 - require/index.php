@@ -1,9 +1,14 @@
+<?php
+     require 'database.php';
+?>
 <html>
-<head></head>
+<head>
+</head>
 <body>
+
     <div class="menu">
-        <?php include "menu.php";?>
-        <?php require 'database.php';?>
+       <?php include 'menu.php'; ?>
     </div>
+
 </body>
 </html>
