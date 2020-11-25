@@ -2,7 +2,8 @@
 <head></head>
 <body>
     <div class="menu">
-        <?php require "menu.php";?>
+        <?php include "menu.php";?>
+        <?php require 'database.php';?>
     </div>
 </body>
 </html>
