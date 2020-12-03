@@ -18,6 +18,8 @@
 /* 
  * Opdracht 2: Zet hier de $buttons array neer 
  */
+$buttons=[1000,750,37.5];
+echo "<br>";
 
 
 /******************************************* OPDRACHT 2 doe je hierboven *******************************************/
@@ -41,10 +43,13 @@ function calculateBitcoinAmount()
     }
 
     //SCHRIJF JE CODE.
-
-
-
+    function calculateBitcoinAmount(){
+        $bitcoinPrice1 = (0.0005104 * 500);
+        $price - ("getBitcoinPrice1");
+        echo $bitcoinPrice1;
+        calculateBitcoinAmount();
 }
+
 /******************************************* OPDRACHT 3 doe je hierboven *******************************************/
 /*******************************************************************************************************************/
 
@@ -68,7 +73,8 @@ $transactions = [
     [8832.08, 100, 0.0113],
     [9418.41, 250, 0.0265],
     [9431.84, 250, 0.0265],
-    [5211.67, 200, 0.0384]
+    [5211.67, 200, 0.0384],
+    
 ];
 
 if (isset($_GET['euro'])) {
@@ -145,3 +151,5 @@ function getBitcoinData()
 
 /************************* De functies hierboven heb je nodig en hoef je niet aan te passen ************************/
 /*******************************************************************************************************************/
+}
+?>
