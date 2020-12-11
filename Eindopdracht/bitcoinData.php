@@ -37,7 +37,7 @@ echo "<br>";
  */
 
 function calculateBitcoinAmount()
-{
+
     if (isset($_GET['euro'])) {
         $euro = (int)$_GET['euro']; //Dit blokje code (if-statement) kun je laten staan.
     }
